@@ -1,0 +1,1 @@
+web: gunicorn dcc_python_django_example.wsgi
