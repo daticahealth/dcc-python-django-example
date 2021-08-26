@@ -2,6 +2,9 @@ import inspect, os
 from datetime import datetime
 from django.http import HttpResponse
 
+def index(request):
+  return HttpResponse('')
+
 def health_check(request):
   return HttpResponse('healthy')
 
