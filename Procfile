@@ -1,1 +1,1 @@
-web: gunicorn dcc_python_django_example.wsgi
+web: python3 manage.py runserver
